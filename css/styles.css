@@ -1,15 +1,49 @@
-<head>
-  <link rel="stylesheet" href="styles.css>
-</head>
-p {
+img{width: 20px;}
+.inline-block{
+display: inline-block;
+vertical-align: top;
+}
+
+.logo{
+width: 23%;
+padding: 1%;
+text-align: center;
+}
+
+nav{
+width: 73%;
+padding: 1%;
+
+}
+nav ul{
+
+    width: 50%;
+    margin-left:auto;
+}
+.heroImg
+{
+    height: 600px;
+    padding: 25px;
+}
+.heroImg img{
+    width: 200px;
+}
+.content 
+{
+width:500px;
+margin:0 auto;
+}
+footer
+{
+    background-color: #373738;
+}
+footer ul{
+    width: 50%;
+    margin-left:auto;
+    display:inline-block;
+    vertical-align: top;
+
+}
+footer ul ui {
     text-align: center;
-    color: Green;
-  }
-  span.a {
-      display: inline-block ;
-      vertical-align: top;
-  }
-  p {
-    text-align: center;
-    color: rgb(34, 135, 66);
-  }
+}
